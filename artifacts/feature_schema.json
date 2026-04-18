@@ -1,0 +1,46 @@
+{
+  "cat_cols": [
+    "term",
+    "home_ownership",
+    "purpose",
+    "emp_length"
+  ],
+  "num_cols": [
+    "fico_range_low",
+    "loan_amnt",
+    "dti",
+    "revol_util",
+    "annual_inc",
+    "open_acc",
+    "delinq_2yrs",
+    "pub_rec",
+    "inq_last_6mths",
+    "mort_acc",
+    "revol_bal",
+    "Inflation_L6",
+    "FedFunds_L3",
+    "HomePrices_L12",
+    "UNRATE_L6"
+  ],
+  "feature_cols": [
+    "term",
+    "home_ownership",
+    "purpose",
+    "emp_length",
+    "fico_range_low",
+    "loan_amnt",
+    "dti",
+    "revol_util",
+    "annual_inc",
+    "open_acc",
+    "delinq_2yrs",
+    "pub_rec",
+    "inq_last_6mths",
+    "mort_acc",
+    "revol_bal",
+    "Inflation_L6",
+    "FedFunds_L3",
+    "HomePrices_L12",
+    "UNRATE_L6"
+  ]
+}
