@@ -1,0 +1,36 @@
+# ─────────────────────────────────────────────
+# Macro-Aware Credit Risk Dashboard
+# Requirements
+# ─────────────────────────────────────────────
+
+# Dashboard
+streamlit
+
+# Data
+numpy==2.4.2
+pandas==2.3.2
+pandas_datareader==0.10.0
+scipy==1.16.2
+
+# ML / Modelling
+scikit-learn==1.7.2
+xgboost==3.0.5
+lightgbm==4.6.0
+shap==0.51.0
+joblib==1.5.2
+optuna==4.5.0
+
+# RAG Pipeline
+sentence-transformers==5.1.2
+requests==2.32.2
+
+# faiss — must install via conda on Mac (NOT pip):
+#   conda install -c conda-forge faiss-cpu
+# faiss-cpu==1.7.2
+
+# Visualisation
+plotly==6.3.0
+matplotlib==3.10.6
+
+# PDF processing (for RAG notebook pipeline only)
+pymupdf
