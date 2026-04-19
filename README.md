@@ -168,8 +168,7 @@ Key settings in `rag_utils.py`:
 |---|---|---|
 | `OLLAMA_MODEL_NAME` | `llama3.2:1b` | Local LLM for explanation generation |
 | `EMBEDDING_MODEL_NAME` | `all-MiniLM-L6-v2` | Sentence embedding model — **do not change** |
-| `TOP_K` | `2` | Number of Fed report chunks to retrieve |
-| `REQUEST_TIMEOUT` | `60` | Ollama request timeout in seconds |
+| `TOP_K` | `3` | Number of Fed report chunks to retrieve |
 
 > ⚠️ Do **not** change `EMBEDDING_MODEL_NAME` — it must match the model used to build the FAISS index.
 
