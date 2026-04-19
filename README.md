@@ -46,7 +46,7 @@ RAG Agent - Copy/
 
 ## Prerequisites
 
-- Python 3.9+ (via Anaconda/Miniconda recommended)
+- Python 3.12
 - [Ollama](https://ollama.com/download/mac) installed and running
 - Federal Reserve Monetary Policy Report PDFs placed in `RAW Reports/` — named as `mpr_yyyy_mm.pdf`
 - Trained model artifacts in `artifacts/`
